@@ -38,55 +38,52 @@
                     <h1 class="sub-tittle">About Me</h1>
                     <p>I am an IT professional with 3+ of experience in network and security operations. Currently pursuing a Bachelor of Science in Information Technology. Great expertise with designing, implementing, and maintaining robust network infrastructures. Strong troubleshooting abilities and adept at identifying and resolving hardware and software issues.
                     </p>
-                <div class="tab-tittles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <div class="tabs">
+                        <button class="tab-link active-tab" data-tab="skills">Skills</button>
+                        <button class="tab-link" data-tab="experience">Experience</button>
+                        <button class="tab-link" data-tab="education">Education</button>
+                    </div>
 
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li> <span>Protocols</span><br>TCP/IP, DNS, DHCP, HTTP</li>      
-                        <li> <span>Network security </span><br>firewalls, VPNs, intrusion detection/prevention systems.</li>                       
-                        <li> <span>infrastructures</span><br>Expertise in Designing Highly Redundant and Scalable Networking Infrastructures, Focused on Ensuring High Availability to Minimize Downtime and Accommodate Future Growth. </li> 
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li> <span>Data analysis at HPCC Systems </span><br>Feb 2022 - Mar 2022</li>      
-                        <li> <span>Consulting Extern at PwC </span><br>Aug 2023 - Sep 2023</li>                       
-                        <li> <span>Network Engineer at Kennesaw State University </span><br>Aug 2023 - Present</li>         
-                                      
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li> <span>B.S. Information Technology </span><br>May 2024</li>      
-                        <li> <span>M.S. Information Technology </span><br>Dec 2025</li>                                                             
-                    </ul>
-                </div>
+
+
+                    <div id="skills" class="tab-content active-tab">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li> <span>Protocols</span><br>TCP/IP, DNS, DHCP, HTTP</li>      
+                            <li> <span>Network security </span><br>firewalls, VPNs, intrusion detection/prevention systems.</li>                       
+                            <li> <span>infrastructures</span><br>Expertise in Designing Highly Redundant and Scalable Networking Infrastructures, Focused on Ensuring High Availability to Minimize Downtime and Accommodate Future Growth. </li> 
+                        </ul>
+                    </div>
+
+
+
+                    <div id="experience" class="tab-content">
+                        <h2>Experience</h2>
+                        <ul>
+                            <li> <span>Data analysis at HPCC Systems </span><br>Feb 2022 - Mar 2022</li>      
+                            <li> <span>Consulting Extern at PwC </span><br>Aug 2023 - Sep 2023</li>                       
+                            <li> <span>Network Engineer at Kennesaw State University </span><br>Aug 2023 - Present</li>   
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div id="education" class="tab-content">
+                        <h2>Education</h2>
+                        <ul>
+                            <li> <span>B.S. Information Technology </span><br>May 2024</li>      
+                            <li> <span>M.S. Information Technology </span><br>Dec 2025</li>  
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-<script>
-    
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classlist.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classlist.remove("active-tab");
-            }
-            
-    }
-
-</script>
 
 
+    <script src="index.js"></script>
 </body>
 </html>
