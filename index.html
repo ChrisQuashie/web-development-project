@@ -36,57 +36,93 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-tittle">About Me</h1>
-                    <p>I am an IT professional with 3+ of experience in network and security operations. Currently pursuing a Bachelor of Science in Information Technology. Great expertise with designing, implementing, and maintaining robust network infrastructures. Strong troubleshooting abilities and adept at identifying and resolving hardware and software issues.
+                    <p>I am an IT professional with deep experience in network and security operations. Great expertise with designing, implementing, and maintaining robust network infrastructures. Strong troubleshooting abilities and adept at identifying and resolving hardware and software issues.
+                        
                     </p>
-                <div class="tab-tittles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <div class="tabs">
+                        <button class="tab-link active-tab" data-tab="skills">Skills</button>
+                        <button class="tab-link" data-tab="experience">Experience</button>
+                        <button class="tab-link" data-tab="education">Education</button>
+                    </div>
 
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li> <span>Protocols</span><br>TCP/IP, DNS, DHCP, HTTP</li>      
-                        <li> <span>Network security </span><br>firewalls, VPNs, intrusion detection/prevention systems.</li>                       
-                        <li> <span>infrastructures</span><br>Expertise in Designing Highly Redundant and Scalable Networking Infrastructures, Focused on Ensuring High Availability to Minimize Downtime and Accommodate Future Growth. </li> 
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li> <span>Data analysis at HPCC Systems </span><br>Feb 2022 - Mar 2022</li>      
-                        <li> <span>Consulting Extern at PwC </span><br>Aug 2023 - Sep 2023</li>                       
-                        <li> <span>Network Engineer at Kennesaw State University </span><br>Aug 2023 - Present</li>         
-                                      
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li> <span>B.S. Information Technology </span><br>May 2024</li>      
-                        <li> <span>M.S. Information Technology </span><br>Dec 2025</li>                                                             
-                    </ul>
-                </div>
+
+
+                    <div id="skills" class="tab-content active-tab">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li> <span>Protocols</span><br>TCP/IP, DNS, DHCP, HTTP</li>      
+                            <li> <span>Network security </span><br>firewalls, VPNs, intrusion detection/prevention systems.</li>                       
+                            <li> <span>infrastructures</span><br>Expertise in Designing Highly Redundant and Scalable Networking Infrastructures, Focused on Ensuring High Availability to Minimize Downtime and Accommodate Future Growth. </li> 
+                        </ul>
+                    </div>
+
+
+
+                    <div id="experience" class="tab-content">
+                        <h2>Experience</h2>
+                        <ul>
+                            <li> <span>Data analysis at HPCC Systems </span><br>Feb 2022 - Mar 2022</li>      
+                            <li> <span>Consulting Extern at PwC </span><br>Aug 2023 - Sep 2023</li>                       
+                            <li> <span>Network Engineer at Kennesaw State University </span><br>Aug 2023 - Present</li>   
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div id="education" class="tab-content">
+                        <h2>Education</h2>
+                        <ul>
+                            <li> <span>B.S. Information Technology </span><br>May 2024</li>      
+                            <li> <span>M.S. Information Technology </span><br>Dec 2025</li>  
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-<script>
-    
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+<!------------contact----------------->
+<div id="contanct">
+    <div class="container">
+        <div class="row"> 
+            <div class="contact-left">
+                <h1 class="sub-tittle" >Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>chrisxquashie@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(404)789-5939</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chris-quashie-b74299264/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/2024 Resume (1).pdf" download class= "btn btn2" >Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your Name" required>
+                    <input type="email" name="email"placeholder = "Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn 2" >Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-    function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classlist.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classlist.remove("active-tab");
-            }
-            
-    }
-
-</script>
-
-
+    <script src="index.js"></script>
 </body>
 </html>
+
+
+
+<!---CODES TO GET UPDATED FILES FROM GIT HUB
+ git fetch origin
+ git merge origin/main
+ git push origin main
+---->
+
+
+<!---CODES TO UPDATE OR PUSH CHANGE TO GITHUB--
+git add --all
+git commit -m "you can put anything here inside here naturally you put the update details"
+git push -u orgin main
+--->
