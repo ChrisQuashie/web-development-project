@@ -13,4 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById(tabId).classList.add("active-tab");
         });
     });
+<<<<<<< HEAD
 });
+=======
+});
+
+
+
+
+>>>>>>> origin/main
