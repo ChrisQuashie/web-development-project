@@ -58,7 +58,7 @@ function Home() {
             <h1 className="text-4xl font-bold">
               I'm a{' '}
               <Typewriter
-                words={['Network Engineer', 'Network Admin', 'Problem Solver']}
+                words={['Network Engineer', 'Cybersecurity Professional', 'Cloud Administrator']}
                 loop={true}
                 cursor
                 cursorStyle="|"
