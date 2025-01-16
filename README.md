@@ -1,54 +1,86 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Cybersecurity Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my Cybersecurity Portfolio! Here, you'll find a curated collection of my projects, certifications, skills, and experiences in the field of cybersecurity. This portfolio demonstrates my passion for securing digital environments and my commitment to staying ahead in this ever-evolving field.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔒 About Me
 
-## Expanding the ESLint configuration
+I am a cybersecurity professional with expertise in identifying vulnerabilities, mitigating risks, and implementing robust security measures to safeguard sensitive information. My goal is to contribute to secure systems and protect organizations from cyber threats.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛡️ Skills
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Penetration Testing**: Experience with tools like Metasploit, Burp Suite, and Kali Linux.
+- **Threat Analysis**: Proficient in identifying and mitigating vulnerabilities using CVSS and threat modeling.
+- **Network Security**: Configuring firewalls, IDS/IPS systems, and securing wireless networks.
+- **Incident Response**: Skilled in containment, eradication, and recovery processes during security breaches.
+- **Scripting**: Python, Bash, and PowerShell for automation and analysis.
+- **Compliance Standards**: Familiar with NIST, ISO 27001, GDPR, and HIPAA.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📂 Projects
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-"# web-dev-project" 
->>>>>>> c7d480544ecf6be92fac83280e4800942debd8c2
+### 1. **Web Application Penetration Testing**
+- Performed a comprehensive security assessment of a web application.
+- Identified vulnerabilities including SQL Injection, XSS, and CSRF.
+- Developed a report detailing findings and recommendations.
+
+### 2. **Phishing Simulation Campaign**
+- Designed and executed a phishing campaign to evaluate employee awareness.
+- Analyzed results and provided training sessions to improve phishing resilience.
+
+### 3. **Network Security Hardening**
+- Audited a small business network for vulnerabilities.
+- Configured firewalls and implemented VLAN segmentation for enhanced security.
+- Documented procedures for ongoing security monitoring.
+
+---
+
+## 📜 Certifications
+
+- **CompTIA Security+**
+- **CompTIA A+**
+- **CompTIA Network**
+
+
+
+---
+
+## 🧑‍💻 Work Experience
+
+### Cybersecurity Analyst  
+**Company Name** | *Jan 2022 - Present*  
+- Conducted regular vulnerability assessments and penetration tests.
+- Monitored network traffic for anomalies using SIEM tools.
+- Collaborated with the development team to implement secure coding practices.
+
+### IT Security Intern  
+**Company Name** | *Jun 2021 - Dec 2021*  
+- Assisted in incident response and digital forensics investigations.
+- Configured and maintained endpoint protection systems.
+- Documented and updated security policies and procedures.
+
+---
+
+## 🌐 Contact Me
+
+- **Email**: [your.email@example.com](mailto:chrisxquashie.@gmail.com)
+- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Portfolio**: [yourportfolio.com](https://yourportfolio.com)
+
+
+---
+
+## 📖 Youtube
+
+Check out my Youtube for cybersecurity insights and tutorials:
+- [How to Conduct a Vulnerability Assessment](https://yourblog.com/vulnerability-assessment)
+- [Top 5 Tools for Penetration Testing](https://yourblog.com/penetration-testing-tools)
+
+---
+
+Thank you for exploring my portfolio! Feel free to connect with me for collaborations or opportunities.
