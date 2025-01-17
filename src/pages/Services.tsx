@@ -6,8 +6,8 @@ import analysis from '../assets/images/icons8-analysis-96.png';
 
 function Services() {
   const services = [
-    { id: 1, title: "Network Security", context: "I help ambitious businesses like yours generate more profit by building awareness, and increasing overall sales.", icon: network_security },
-    { id: 2, title: "Programming & Scripting", context: "I help ambitious businesses like yours generate more profit by building awareness, and increasing overall sales.", icon: coding },
+    { id: 1, title: "Network Security", context: "I help forward-thinking businesses like yours strengthen their defenses, enhance operational security, and safeguard sensitive data by building robust, scalable network security solutions.", icon: network_security },
+    { id: 2, title: "Programming & Scripting", context: "Through advanced programming and scripting, I help increase efficiency and boost profits by leveraging automation to streamline operations and using programming expertise to create interactive, user-friendly websites that engage customers and drive sales.", icon: coding },
     { id: 3, title: "Cloud & Virtualization", context: "I help ambitious businesses like yours generate more profit by building awareness, and increasing overall sales.", icon: cloud },
     { id: 4, title: "Monitoring & Analysis", context: "I help ambitious businesses like yours generate more profit by building awareness, and increasing overall sales.", icon: analysis },
   ];
