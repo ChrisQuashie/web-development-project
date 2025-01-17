@@ -4,7 +4,7 @@ import { ghPages } from 'vite-plugin-gh-pages';
 
 export default defineConfig({
   plugins: [react(), ghPages()],
-  base: '/',
+  base: '/web-development-project/',
   build: {
     sourcemap: true,
     rollupOptions: {
