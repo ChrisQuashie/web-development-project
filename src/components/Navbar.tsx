@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const socialMediaIcons = [
-    { id: 1, icon: faFacebook, ariaLabel: "Facebook Link", href: "linkedin.com/in/chris-quashie-b74299264", color: "#1877F2" },
+    { id: 1, icon: faLinkedin, ariaLabel: "Linkedin Link", href: "linkedin.com/in/chris-quashie-b74299264", color: "#1877F2" },
     { id: 2, icon: faInstagram, ariaLabel: "Instagram Link", href: "https://www.instagram.com/_mbame/", color: "#E1306C" },
     { id: 3, icon: faYoutube, ariaLabel: "YouTube Link", href: "https://www.youtube.com/@TechyChriss", color: "#FF0000" },
   ];
