@@ -6,9 +6,9 @@ import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg
 
 function Navbar() {
   const socialMediaIcons = [
-    { id: 1, icon: faFacebook, ariaLabel: "Facebook Link", href: "https://www.facebook.com/profile.php?id=100080516095302", color: "#1877F2" },
+    { id: 1, icon: faFacebook, ariaLabel: "Facebook Link", href: "linkedin.com/in/chris-quashie-b74299264", color: "#1877F2" },
     { id: 2, icon: faInstagram, ariaLabel: "Instagram Link", href: "https://www.instagram.com/_mbame/", color: "#E1306C" },
-    { id: 3, icon: faYoutube, ariaLabel: "YouTube Link", href: "https://www.youtube.com/@mbamequashie", color: "#FF0000" },
+    { id: 3, icon: faYoutube, ariaLabel: "YouTube Link", href: "https://www.youtube.com/@TechyChriss", color: "#FF0000" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
