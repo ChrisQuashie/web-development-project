@@ -110,7 +110,7 @@ function Contact() {
             </div>
             <div className="flex items-center gap-4">
               <span className="text-purple-500 text-xl">📍</span>
-              <p className="text-gray-400">Hiram GA</p>
+              <p className="text-gray-400">Atlanta GA</p>
             </div>
           </div>
         </div>
